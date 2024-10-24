@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Progress Application</title>
+<!-- CSS Link -->
+<link rel="stylesheet" href="inputs.css">
+<!-- Fontawesome icon CDN link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!-- Header -->
+<header>
+<div style="display: flex;">
+<i class="fa fa-bars"></i>
+<div class="heading">
+<h2>Morning, <span >Alexa 👋</span></h2>
+</div>
+</div>
+
+<div class="icon">
+<i class="fa fa-search"></i>
+<i class="fa fa-bell"></i>
+</div>
+</header>
+<!-- Big Container -->
+<div class="Hole-container">
+<div class="heading">
+    <h3>Create a Poll with</h3>
+</div>
+<!-- Name Input Container-->
+<div class="form1-name">
+    <label class="label">Name the Poll <span style="color: red;"> *</span></label><br>
+    <input type="text">
+</div>
+
+<!-- Write a Question -->
+<div class="heading">
+<label>Write Question<span style="color: red;"> *</span></label>
+</div>
+
+<div class="form1-question">
+    <!-- Write Question Input Container -->
+    <div class="form-input">
+        <textarea name="message" id="message"></textarea>
+        <!-- Icons Start -->
+        <div class="input-upload-icon">
+            <!-- Upload Image -->
+            <input type="file" id="upload">
+            <label for="upload">
+                <i class="fa fa-map-marker"></i>
+            </label>
+            <!-- Gif Image -->
+            <input type="file" id="upload">
+            <label for="upload">
+                <i class="fa fa-link"></i>
+            </label>
+            <!-- Upload File -->
+            <input type="file" id="upload">
+            <label for="upload">
+                <i class="fa fa-file-o"></i>
+            </label>
+            <!-- Location -->
+            <input type="file" id="upload">
+            <label for="upload">
+                <i class="fa fa-image"></i>
+            </label>
+        </div>
+        <!-- Icons End -->
+    </div>
+    <!-- Write Question Input COntainer -->
+</div>
+<!--  Create Option With-->
+<div class="heading">
+    <label>Create Option with<span style="color: red;"> *</span></label>
+</div>
+<!-- 4 Boxes -->
+<div class="flex-three-box">
+
+    <div class="square">
+        <div class="yesBtn-container"><button id="yesBtn">✔</button> Yes</div>
+        <div class="yesBtn-container"><button id="noBtn">X</button> No</div>
+        <div class="yesBtn-container"><button id="maybeBtn">?</button> Maybe</div>
+    </div>
+    <!-- Checkbox -->
+    <div class="square">
+
+        <div class="check-box-container">
+        <div><i class="fa fa-check-square-o"></i> <span>Option</span></div>
+        <div><i class="fa fa-check-square-o"></i> <span>Option</span></div>
+        <div><i class="fa fa-check-square-o"></i> <span>Option</span></div>
+        <div><i class="fa fa-check-square-o"></i> <span>Option</span></div>
+
+        </div>
+        
+    </div>
+    <!-- Button Container -->
+    <div class="square">
+        <div class="button-container-LikeDisLike" >
+        <button class="likeBtn"><i class="fa fa-thumbs-up"></i> Like</button>
+        <br>
+        <br>
+        <button class="dislikeBtn"><i class="fa fa-thumbs-down"></i> Like</button>
+        </div>
+    </div>
+<!-- Get Ready -->
+    <div class="square">
+        <div class="envelop-container" >
+            <i class="fa fa-envelope"></i>
+            <p>Get Ready</p>
+        </div>
+    </div>
+</div>
+<!-- Icon with heading -->
+<div class="Icon-With-Container">
+<div class="icon-with-heading">
+    <p><i class="fa fa-check-square-o"></i> Option with image</p>
+ </div>
+ <div class="icon-with-button">
+    <button>+ Add Options</button>
+ </div>
+</div>
+<!-- Option input Container -->
+ <div class="Option-input-Container">
+
+<!-- Option Input1 -->
+<div class="option-input">
+    <label class="label">Option 1<span style="color: red;"> *</span></label><br>
+    <input type="text">
+</div>
+
+<!-- Option Input2 -->
+<div class="option-input">
+    <label class="label">Option 1<span style="color: red;"> *</span></label><br>
+    <input type="text">
+</div>
+
+<!-- Poll Length -->
+<div class="poll-length">
+    <label class="label">Poll Length<span style="color: red;"> *</span></label><br>
+    <input type="date">
+</div>
+
+<!-- Privacy -->
+<div class="option-input">
+    <label class="label">Privacy<span style="color: red;"> *</span></label><br>
+    <input type="text">
+</div>
+
+<!-- Buttons -->
+ <div class="buttons">
+    <button id="cancelBtn">Cancel</button><button id="createBtn">Create</button>
+ </div>
+</div>
+</div>
+
+<!-- Footer -->
+<button id="fixedBtn">+</button>
+
+<footer id="footer">
+
+<div class="icon">
+<i class=" fa fa-home"></i>
+<p class="icon-text" >Home</p>
+</div>
+<div class="icon" >
+<i class=" fa fa-hashtag"></i>
+<p class="icon-text">Hashtag</p>
+</div>
+<div class="icon" >
+<i class=" fa fa-users"></i>
+<p class="icon-text" >Users</p>
+</div>
+<div class="icon" id="i-4">
+<i class=" fa fa-user"></i>
+<p class="icon-text" >User</p>
+</div>
+</footer>
+</body>
+</html>

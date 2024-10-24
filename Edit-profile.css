@@ -1,0 +1,152 @@
+*
+{
+margin: 0%;
+padding: 0%;
+font-family: 'poppins', sans-serif;
+box-sizing: border-box;
+}
+
+/* Header */
+header
+{
+display: flex;
+justify-content: space-between;
+padding: 20px 10px;
+}
+.header-menu,.fa-arrow-left, .fa-sign-out
+{
+color: #0F75BC;
+}
+.header-icon i
+{
+padding: 0 5px;
+}
+
+.container
+{
+width: 100%;
+}
+/* Container of Input and label */
+.entryarea
+{
+position: relative;
+height: 30px;
+line-height: 30px;
+margin: 60px 20px;
+}
+/* Input */
+input{
+position: absolute;
+width: 100%;
+outline: none;
+font-size: 15px;
+padding: 0 30px;
+line-height: 60px;
+border-radius: 8px;
+border: 1px solid #717172;
+background: transparent;
+transition: 0.1s ease;
+z-index: 1111;
+}
+/* Label center */
+.labelline
+{
+position: absolute;
+font-size: 15px;
+color: #717172;
+padding: 0 5px;
+margin: 10px 20px;
+background-color: #ffffff;
+transition: 0.2s ease;
+}   
+
+input:focus +.labelline
+{
+height: 30px;
+line-height: 10px;
+transform: translate(-15px,-16px)scale(0.88);
+z-index: 1111;
+}
+
+/* textare */
+
+.textarea
+{
+position: relative;
+height: 30px;
+line-height: 30px;
+margin: 60px 20px;
+}
+.text-area
+{
+position: absolute;
+width: 100%;
+outline: none;
+font-size: 15px;
+padding: 0 30px;
+line-height: 100px;
+border-radius: 8px;
+border: 1px solid #717172;
+background: transparent;
+transition: 0.1s ease;
+z-index: 1111;
+}
+.CompleteBtn 
+{
+margin: 100px 20px;
+background-color: aqua;
+}
+.CompleteBtn button
+{
+height: 35px;
+width: 100%;
+border: none;
+border-radius: 8px;
+background-color: #0F75BC;
+color: #fff;
+
+}
+
+.parent
+{
+    border: 2px solid #0F75BC;
+    width: fit-content;
+    border-radius: 50%;
+    margin: 10px 30%;
+}
+#file
+{
+    display: none;
+    
+}
+.upload-label
+{
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    background-color: #A4BECB;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 10px;
+    cursor: pointer;
+}
+.fa-user-circle
+{
+    position: absolute;
+    font-size: 30px;
+    right: 0px;
+    background-color: #fff ;
+    border-radius: 50%;
+    color: black;
+}
+
+
+/* input:focus + .labelline,
+input:valid + .labelline
+{
+height: 30px;
+line-height: 30px;
+transform: translate(-15px,-16px)scale(0.88);
+z-index: 1111;
+} */

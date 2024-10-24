@@ -1,0 +1,135 @@
+*
+{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+/* Header */
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+}
+.header-menu,.fa-arrow-left
+{
+    color: #0F75BC;
+}
+.header-icon i
+{
+    padding: 0 5px;
+}
+.fa-search, .fa-bell
+{
+    color: #595a5a;
+}
+.button-heading
+{
+    margin: 10px 20px;
+}
+.button-heading p
+{
+    color: #757777;
+}
+a
+{
+    text-decoration: none;
+    color: #0F75BC;
+}
+.button-container
+{
+    margin: 10px 20px;
+}
+.button-container .fillBtn
+{
+    margin:10px 4px;
+    padding: 6px;
+    height: 35px;
+    background-color: #0F75BC;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+}
+.outlineBtn
+{
+    height: 30px;
+    background-color: #fff;
+    color: #0F75BC;
+    margin:5px 0px;
+    padding: 6px;
+    border: 1px solid #0F75BC;
+    border-radius: 7px;
+}
+.saveBtn
+{
+    margin: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+.saveBtn button
+{
+    margin:10px 4px;
+    padding: 6px;
+    height: 35px;
+    width: 50%;
+    background-color: #0F75BC;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: medium;
+}
+
+@media (max-width:425px)
+{
+    .button-container
+{
+    margin: 10px 25px;
+}
+
+    .saveBtn
+{
+    margin: 10px 20px;
+}
+
+    .saveBtn button
+{
+    margin:10px 4px;
+    padding: 6px;
+    height: 35px;
+    width: 100%;
+    background-color: #0F75BC;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: medium;
+}
+}
+
+@media (max-width:375px)
+{
+    .button-container
+{
+    margin: 10px 15px;
+}
+
+    .saveBtn
+{
+    margin: 10px 10px;
+}
+
+    .saveBtn button
+{
+    margin:10px 4px;
+    padding: 6px;
+    height: 35px;
+    width: 100%;
+    background-color: #0F75BC;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: medium;
+}
+}
+
+
